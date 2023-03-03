@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人网页</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* 导航栏样式 */
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            display: flex;
+        }
+        .navbar li {
+            margin-right: 10px;
+        }
+        .navbar li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .navbar li a:hover {
+            background-color: #555;
+        }
+        /* 主体内容样式 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container h2 {
+            font-size: 36px;
+            margin-top: 0;
+        }
+        .container p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .container a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 2px solid #333;
+            transition: border-color 0.3s ease-in-out;
+        }
+        .container a:hover {
+            border-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <h1>我的个人网页</h1>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">关于我</a></li>
+                <li><a href="#">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- 主体内容 -->
+        <div class="container">
+            <h2>欢迎来到我的个人网页</h2>
+            <p>这是一个简单的网页模板，你可以根据自己的需要来修改和添加内容。如果你有任何问题或建议，欢迎联系我。</p>
+            <p>我的邮箱是 <a href="mailto:your-email@example.com">your-email@example.com</a>，你也可以在以下社交媒体上找到我：</p>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <!-- 页脚 -->
+        <div class="container">
+            <p>版权所有 © 2023 我的个人网页</p>
+        </div>
+    </footer>
+</body>
+</html>
